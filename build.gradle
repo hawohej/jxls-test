@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.hawohej'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(
+            "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
+
+            "org.jxls:jxls:$jxlsVersion",
+            "org.jxls:jxls-poi:$jxlsVersion",
+            "org.apache.poi:poi:$apachePoiVersion",
+            "org.apache.poi:poi-ooxml:$apachePoiVersion",
+    )
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,21 @@
+{
+  "OPPORTUNITIES": {
+    "name": "Сделка с дьяволом"
+  },
+  "opportunityProducts": [
+    {
+      "name": "Какое-то название первого продукта",
+      "product": "Some product 1",
+      "sum": 1000
+    },
+    {
+      "name": "Какое-то название второго продукта",
+      "product": "Some product 2",
+      "sum": 2000
+    }
+  ],
+  "drafter": {
+    "fullName": "Татаринов Даниил Петрович",
+    "position": "Архитектор"
+  }
+}
